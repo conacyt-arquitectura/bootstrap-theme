@@ -2,3 +2,19 @@
 // New variables and overridden variables from Bootstrap.
 // check out the variables.scss file in bootstrap for additional ones that are available.
 //---------------------------------------------------------------------------------------
+
+// Changing the theme colors
+$primary: #9D2449;
+$secondary: #b38e5d;
+$info: #4D92DF;
+$danger: #D0021B;
+
+// Adding (!) an additional theme color (ex. classes btn-cool, bg-cool)
+$theme-colors: (
+    "green-gob": #0b231e
+);
+
+// Links
+$link-color: theme-color('primary');
+$link-decoration: none;
+$link-hover-decoration: underline;

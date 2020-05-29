@@ -5,22 +5,6 @@
 // Reference: http://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/web-content-development-guides/developers-guide/css-elements
 // sass-lint:disable force-element-nesting, force-pseudo-nesting
 
-// Changing the theme colors
-$primary: #9D2449;
-$secondary: #b38e5d;
-$info: #4D92DF;
-$danger: #D0021B;
-
-// Adding (!) an additional theme color (ex. classes btn-cool, bg-cool)
-$theme-colors: (
-    "green-gob": #0b231e
-);
-
-// Links
-$link-color: theme-color('primary');
-$link-decoration: none;
-$link-hover-decoration: underline;
-
 // Forms
 .control-label {
     font-weight: 700;
