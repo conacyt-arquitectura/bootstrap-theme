@@ -1,15 +1,11 @@
 {
-  "name": "@bcgov/bootstrap-theme",
-  "version": "1.1.3",
-  "description": "Government of British Columbia Bootstrap v4 theme",
+  "name": "@conacyt/bootstrap-theme",
+  "version": "0.0.1",
+  "description": "El tema de bootstrap de CONACYT",
   "style": "dist/css/bootstrap-theme.min.css",
   "main": "dist/js/bootstrap-theme.min.js",
   "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com:bcgov/bootstrap-theme.git"
-  },
-  "bugs": {
-    "url": "https://github.com/bcgov/bootstrap-theme/issues"
+    "type": "git"
   },
   "files": [
     "dist"

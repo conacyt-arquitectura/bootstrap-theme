@@ -13,7 +13,7 @@ source:         "."
 destination:    ./_gh_pages
 port:           9001
 baseurl:        "/bootstrap-theme"
-url:            "https://bcgov.github.io/bootstrap-theme"
+url:            "https://conacyt-arquitectura.github.io/bootstrap-theme"
 encoding:       UTF-8
 exclude:
   - .git
@@ -49,4 +49,4 @@ description:        "The most popular HTML, CSS, and JS library in the world the
 authors:            "Greg Turner"
 
 # Custom variables
-repo:               "https://github.com/bcgov/bootstrap-theme"
+repo:               "https://github.com/conacyt-arquitectura/bootstrap-theme"

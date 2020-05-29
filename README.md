@@ -1,8 +1,12 @@
-# 🚀 Government of British Columbia Bootstrap v4 Theme
+# Tema de Bootstrap de CONACYT
 
-[Getting Started instructions](https://bcgov.github.io/bootstrap-theme/docs/getting-started/introduction/)
-
-[Full documentation and demonstrations of the theme](https://bcgov.github.io/bootstrap-theme/)
+# Empezando
+Para usar este tema en un proyecto:
+```
+@import "~@conacyt/bootstrap-theme/dist/scss/bootstrap-theme";
+@import "~@conacyt/bootstrap-theme/dist/scss/common";
+@import '~bootstrap/scss/bootstrap';
+```
 
 A Bootstrap version 4.3 BC Government look-and-feel featuring:
 - The [BC Sans](https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/bc-visual-identity/bc-sans)
@@ -16,12 +20,6 @@ A Bootstrap version 4.3 BC Government look-and-feel featuring:
 - Source SCSS files are included in the distribution, allowing local customizations
 - Supports NPM, Yarn and Bower package manager integration
 - Includes sample HTML pages and common components like headers and footers for quick setup
-
-The project is a successor to the previous
-[Gov-2.0-Bootstrap-Skeleton](https://github.com/bcgov/Gov-2.0-Bootstrap-Skeleton)
-and [mygovbc-bootstrap-theme](https://github.com/bcgov/mygovbc-bootstrap-theme).
-We combined the best of both projects and leverage the latest
-[Bootstrap](http://getbootstrap.com/) version.
 
 ## Theme Developers
 
@@ -46,8 +44,6 @@ You'll need the following tools installed on your device to begin working on the
 After your tools are in place, you should clone and install some packages:
 
 ```bash
-git clone git@github.com:bcgov/bootstrap-theme.git
-cd bootstrap-theme
 npm install
 gem install bundler
 bundle install
