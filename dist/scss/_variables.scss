@@ -2,3 +2,26 @@
 // New variables and overridden variables from Bootstrap.
 // check out the variables.scss file in bootstrap for additional ones that are available.
 //---------------------------------------------------------------------------------------
+
+// Typography
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+$font-family-sans-serif: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+
+// Changing the body colour
+$body-color: #545454;
+
+// Changing the theme colors
+$primary: #9D2449;
+$secondary: #b38e5d;
+$info: #4D92DF;
+$danger: #D0021B;
+
+// Adding (!) an additional theme color (ex. classes btn-cool, bg-cool)
+$theme-colors: (
+    "green-gob": #0b231e
+);
+
+// Links
+$link-color: theme-color('primary');
+$link-decoration: none;
+$link-hover-decoration: underline;
